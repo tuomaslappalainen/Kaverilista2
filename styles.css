@@ -1,0 +1,112 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+    height: 100vh;
+    background: linear-gradient(0.35turn, rgb(18, 151, 52), rgba(3, 9, 97, 0.795))
+    }
+    .container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    
+    }
+    
+    #uusinimi{
+    position: relative;
+    padding: 30px 20px;
+    }
+    #uusinimi input{
+    width: 75%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    }
+    #uusinimi input:focus{
+    outline: none;
+    border-color: #000000;
+    }
+    
+    #uusinimi button{
+    transition-duration: 0.4s;
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 3px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    }
+
+    #uusinimi button:hover {
+        background-color:white;
+        color:black;
+        border: 15px black;
+        border-radius:  15px;
+        outline-color: black;
+    }
+    #nimet{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    }
+    .nimi{
+    background-color: #b4bdbd;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    }
+    .nimi span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    }
+
+    .nimi button {
+        background-color: red;
+        color: #fff;
+        height: 100%;
+        width: 40px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 5px;
+    }
+
+    .completed {
+        text-decoration: line-through;
+    }
+    
+    h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 330%;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255), 3px 3px 1px rgb(0, 0, 0), 4px 4px 1px white;
+    }
